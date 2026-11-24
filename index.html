@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Moje Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <p>Moje Portfolio</p>
+
+        <nav aria-label="Główna nawigacja">
+            <a href="index.html">Strona główna</a>
+            <a href="about.html">O mnie</a>
+            <a href="projects.html">Projekty</a>
+        </nav>
+    </header>
+
+    <main>
+        <section aria-labelledby="tytul-powitanie">
+
+            <h1 id="tytul-powitanie">Cześć, jestem Cezary</h1>
+            
+            <p>Od 13 lat prowadzę firmę zajmującą się słodkościami. Czas na bug-free cookies.</p>
+
+            <a href="projects.html">Zobacz moje projekty</a>
+        </section>
+
+        <section aria-labelledby="tytul-poznaje">
+            <h2 id="tytul-poznaje">Na początek poznaję:</h2>
+
+            <ul>
+                <li>C#</li>
+                <li>html+css+js</li>
+                <li>skrypty basha</li>
+                <li>jak działa komputer :)</li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="tytul-ciekawostka">
+            <h3 id="tytul-ciekawostka" class="tekst-ciekawostka">Ciekawostka: Coś do policzenia...</h3>
+
+            <p id="ciekawostka" class="tekst-ciekawostka">Ile kalorii ma taka malusia panna cotta?<br>Kliknij zdjęcie, aby się dowiedzieć. <br>
+            
+                <button id="przycisk-ciekawostka" class="przycisk-deser" type="button">
+                    <img class="zdjecie-deser" src="panna_cotta.jpeg" alt="Panna cotta - pokaż odpowiedź.">
+                </button>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Pierwsze portfolio na Warsztatach Programisty.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
